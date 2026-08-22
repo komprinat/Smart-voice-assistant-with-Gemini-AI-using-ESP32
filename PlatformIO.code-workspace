@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Testing",
+			"path": "../Testing/Testing"
+		},
+		{
+			"name": "testing",
+			"path": "../testing"
+		},
+		{
+			"name": "button",
+			"path": "../button"
+		},
+		{
+			"name": "Projek TA",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
