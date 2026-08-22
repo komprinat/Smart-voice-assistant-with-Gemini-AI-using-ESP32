@@ -13,15 +13,15 @@
 using namespace websockets;
 
 //Wifi
-const char* ssid = "POCO X3 Pro";
-const char* password = "crowsong";
-//Server Websocket
-const char* websocket_server = "10.171.34.108";
-const uint16_t websocket_port = 8765;
+const char* ssid = "SSID WIFI"; //wifi name your use
+const char* password = "Password WIFI"; // password for the wifi
+//Server Websocket 
+const char* websocket_server = "IP server"; //ip for websocket server
+const uint16_t websocket_port = 8765; //port server default 8765
 //server MQTT
-const char *mqtt_broker = websocket_server;
-const char *topic_send = "esp32/data_sensor";
-const int mqtt_port = 1883;
+const char *mqtt_broker = websocket_server; //IP broker mqqtt, if its in the same computer as websocket server, then the ip is same
+const char *topic_send = "esp32/data_sensor"; // Topic to send data sensor
+const int mqtt_port = 1883; //mqtt port defaul 1883
 
 WebsocketsClient ws;
 WiFiClient espClient;
