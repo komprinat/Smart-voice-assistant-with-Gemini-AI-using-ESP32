@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "custom by me") (type "KiCad") (uri "D:/Kicad/Footprint n else/custom by me.pretty") (options "") (descr ""))
+)
