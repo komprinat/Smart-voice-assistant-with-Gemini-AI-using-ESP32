@@ -5,7 +5,7 @@
 - WebSocket untuk komunikasi audio
 - Speech-to-Text menggunakan speech recognition
 - Gemini AI
-- Text-to-Speech menggunakan Piper
+- Text-to-Speech menggunakan Piper dengan [model bahasa indonesia](/server/model_tts)
 - MQTT untuk komunikasi data sensor
 
 ![Alur kerja](/Perancangan/images/alur%20kerja.png)
@@ -13,13 +13,14 @@
 ## Rangkaian ESP32
 ![Rangkaian](/Perancangan/images/rangkaian.png)
 ### Library yang digunakan
+Code pada ESP32 dibuat menggunakan Platformio dengan [code](/ESP32/src/main.cpp) serta menggunakan [library](/ESP32/platformio.ini)
 * [ArduinoWebscoket by gilmaimon](https://github.com/gilmaimon/ArduinoWebsockets)
 * [DHT sensor library by adafruit](https://github.com/adafruit/dht-sensor-library)
 * [MQSpaceData by abcdaaaaaaaaa](https://github.com/abcdaaaaaaaaa/MQDataScience?utm_source=pioarduino)
 * [PubSubClient by knolleary](https://github.com/knolleary/pubsubclient?utm_source=pioarduino)
 
 ## Server
-Server menggunakan python 3.13 dan Broker MQTT Mosquitto. Pastikan semua library yang ada di [requirements](/server/requirements.txt) sudah terinstall baik secara global maupun di virtual environment. Untuk Menjalankan server klik run.bat dengan mode administrator
+Server menggunakan python 3.13 dan Broker MQTT Mosquitto. Pastikan semua library yang ada di [requirements](/server/requirements.txt) sudah terinstall baik secara global maupun di virtual environment. Untuk Menjalankan server klik run.bat dengan mode administrator dan ketik server on
 
 ## Hardware dan yang lainnya
 ### PCB
