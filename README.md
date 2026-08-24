@@ -24,11 +24,11 @@ Server menggunakan python 3.13 dan Broker MQTT Mosquitto. Pastikan semua library
 
 ## Hardware dan yang lainnya
 ### PCB
-PCB dibuat menggunakan software KiCad dan pabrikasi manual dengan metode toner pada PCB single layer
+PCB dibuat menggunakan software KiCad untuk [desain](/Perancangan/PCB/TA.kicad_pcb) serta [skematiknya](/Perancangan/PCB/TA.kicad_sch) dan pabrikasi dilakukan dengan metode toner pada PCB single layer
 <img src="/Perancangan/images/desain PCB.png" height="300">
 ### Desain kotak
 ![Desain kotak](/Perancangan/images/desain%20kotak.png)
-3D Printing menggunakan filamen PLA+ dengan infill 15% dan layer height 0,2mm
+[Desain](/Perancangan/3D%20Printing%20Design/Untuk%20TA2.FCStd) dibuat menggunakan FreeCAD 3D Printing menggunakan filamen PLA+ dengan infill 15% dan layer height 0,2mm
 
 <img src="/Perancangan/images/Desain jadi.png" height="300">
 
