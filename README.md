@@ -3,7 +3,7 @@
 - Voice input menggunakan INMP441
 - ESP32 sebagai perangkat utama
 - WebSocket untuk komunikasi audio
-- Speech-to-Text
+- Speech-to-Text menggunakan speech recognition
 - Gemini AI
 - Text-to-Speech menggunakan Piper
 - MQTT untuk komunikasi data sensor
@@ -19,17 +19,17 @@
 * [PubSubClient by knolleary](https://github.com/knolleary/pubsubclient?utm_source=pioarduino)
 
 ## Server
-Server menggunakan python 3.13 dan Broker MQTT Mosquitto. Pastikan semua library yang ada di requirements sudah terinstall baik secara global maupun di virtual environment. Untuk Menjalankan server klik run.bat dengan mode administrator
+Server menggunakan python 3.13 dan Broker MQTT Mosquitto. Pastikan semua library yang ada di [requirements](/server/requirements.txt) sudah terinstall baik secara global maupun di virtual environment. Untuk Menjalankan server klik run.bat dengan mode administrator
 
 ## Hardware dan yang lainnya
 ### PCB
 PCB dibuat menggunakan software KiCad dan pabrikasi manual dengan metode toner pada PCB single layer
-<img src="/Perancangan/images/desain PCB.png" height="500">
+<img src="/Perancangan/images/desain PCB.png" height="200">
 ### Desain kotak
 ![Desain kotak](/Perancangan/images/desain%20kotak.png)
 3D Printing menggunakan filamen PLA+ dengan infill 15% dan layer height 0,2mm
 
-![Hasil jadi](/Perancangan/images/Desain%20jadi.png)
+<img src="/Perancangan/images/Desain jadi.png" height="200">
 
 ## Bug dan Error yang ada
 * Koneksi antara ESP32 dan server kadang terputus
