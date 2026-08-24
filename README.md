@@ -25,6 +25,7 @@ Server menggunakan python 3.13 dan Broker MQTT Mosquitto. Pastikan semua library
 ## Hardware dan yang lainnya
 ### PCB
 PCB dibuat menggunakan software KiCad untuk [desain](/Perancangan/PCB/TA.kicad_pcb) serta [skematiknya](/Perancangan/PCB/TA.kicad_sch) dan pabrikasi dilakukan dengan metode toner pada PCB single layer
+
 <img src="/Perancangan/images/desain PCB.png" height="300">
 ### Desain kotak
 ![Desain kotak](/Perancangan/images/desain%20kotak.png)
