@@ -20,7 +20,7 @@ Code pada ESP32 dibuat menggunakan Platformio dengan [code](/ESP32/src/main.cpp)
 * [PubSubClient by knolleary](https://github.com/knolleary/pubsubclient?utm_source=pioarduino)
 
 ## Server
-Server menggunakan python 3.13 dan Broker MQTT Mosquitto. Pastikan semua library yang ada di [requirements](/server/requirements.txt) sudah terinstall baik secara global maupun di virtual environment. Pastikan sudah mengisi API Key Gemini di [kode](/server/config.py) yang bisa didapat di [sini](https://aistudio.google.com/api-keys). Untuk Menjalankan server klik run.bat dengan mode administrator dan ketik server on
+Server menggunakan python 3.13 dan Broker MQTT Mosquitto. Pastikan semua library yang ada di [requirements](/server/requirements.txt) sudah terinstall baik secara global atau di virtual environment. Pastikan sudah mengisi API Key Gemini di [kode](/server/config.py) yang bisa didapat di [sini](https://aistudio.google.com/api-keys). Untuk Menjalankan server klik run.bat dengan mode administrator dan ketik server on
 
 ## Hardware dan yang lainnya
 ### PCB
